@@ -1,13 +1,13 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Windows蓝屏代码详解 | Hello</title><meta name="author" content="andwindowsCEO"><meta name="copyright" content="andwindowsCEO"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="前言： windows蓝屏是最常见的一个电脑问题。 蓝屏代码大全  以下是andwindows所整理的windows蓝屏代码    解决方法  一、屏幕显示系统忙，请按任意键继续 1、虚拟内存不足造成系统多任务运算错误 虚拟内存是WINDOWS系统所特有的一种解决系统资源不足的方法，其一般要求主引导区的硬盘剩余空间是其物理内存的2-3倍。而一些发烧友为了充分利用空间，将自己的硬盘塞到满满的，忙记了">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Windows蓝屏代码详解 | Hello</title><meta name="author" content="andwindowsCEO"><meta name="copyright" content="andwindowsCEO"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="前言： windows蓝屏是最常见的一个电脑问题。 蓝屏代码大全  以下是andwindows所整理的windows蓝屏代码 00000001 BSOD意味着APC状态指数存在不匹配。BSOD错误代码0x00000001也可能在同一蓝色屏幕上显示“APC_INDEX_MISMATCH”。 0x00000002 这种BSOD并不常见。BSOD错误代码0x00000002也可能在同一蓝色屏幕上显示“D">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Windows蓝屏代码详解">
 <meta property="og:url" content="https://github.com/andwindows365/andwindows365.github.io.git/blog/Windows%E8%93%9D%E5%B1%8F%E4%BB%A3%E7%A0%81%E8%AF%A6%E8%A7%A3/index.html">
 <meta property="og:site_name" content="Hello">
-<meta property="og:description" content="前言： windows蓝屏是最常见的一个电脑问题。 蓝屏代码大全  以下是andwindows所整理的windows蓝屏代码    解决方法  一、屏幕显示系统忙，请按任意键继续 1、虚拟内存不足造成系统多任务运算错误 虚拟内存是WINDOWS系统所特有的一种解决系统资源不足的方法，其一般要求主引导区的硬盘剩余空间是其物理内存的2-3倍。而一些发烧友为了充分利用空间，将自己的硬盘塞到满满的，忙记了">
+<meta property="og:description" content="前言： windows蓝屏是最常见的一个电脑问题。 蓝屏代码大全  以下是andwindows所整理的windows蓝屏代码 00000001 BSOD意味着APC状态指数存在不匹配。BSOD错误代码0x00000001也可能在同一蓝色屏幕上显示“APC_INDEX_MISMATCH”。 0x00000002 这种BSOD并不常见。BSOD错误代码0x00000002也可能在同一蓝色屏幕上显示“D">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://github.com/andwindows365/andwindows365.github.io.git/media/top_img.jpg">
 <meta property="article:published_time" content="2022-07-15T02:13:53.000Z">
-<meta property="article:modified_time" content="2022-07-15T02:34:14.575Z">
+<meta property="article:modified_time" content="2022-07-15T05:55:13.593Z">
 <meta property="article:author" content="andwindowsCEO">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://github.com/andwindows365/andwindows365.github.io.git/media/top_img.jpg"><link rel="shortcut icon" href="/media/favicon.png"><link rel="canonical" href="https://github.com/andwindows365/andwindows365.github.io.git/blog/Windows%E8%93%9D%E5%B1%8F%E4%BB%A3%E7%A0%81%E8%AF%A6%E8%A7%A3/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
@@ -57,7 +57,7 @@
   isHome: false,
   isHighlightShrink: false,
   isToc: true,
-  postUpdate: '2022-07-15 10:34:14'
+  postUpdate: '2022-07-15 13:55:13'
 }</script><noscript><style type="text/css">
   #nav {
     opacity: 1
@@ -146,9 +146,528 @@
       }
     }
     detectApple()
-    document.addEventListener('pjax:complete', detectApple)})(window)</script><meta name="generator" content="Hexo 5.2.0"></head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="/media/avatar.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">文章</div><div class="length-num">1</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 目录</span><i class="fas fa-chevron-down expand hide"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/Gallery/"><i class="fa-fw fas fa-images"></i><span> 图库</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 传送门</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('/blog/Windows%E8%93%9D%E5%B1%8F%E4%BB%A3%E7%A0%81%E8%AF%A6%E8%A7%A3/2.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">Hello</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 目录</span><i class="fas fa-chevron-down expand hide"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/Gallery/"><i class="fa-fw fas fa-images"></i><span> 图库</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 传送门</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Windows蓝屏代码详解</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-07-15T02:13:53.000Z" title="发表于 2022-07-15 10:13:53">2022-07-15</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-07-15T02:34:14.575Z" title="更新于 2022-07-15 10:34:14">2022-07-15</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">3.4k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>9分钟</span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="前言："><a href="#前言：" class="headerlink" title="前言："></a>前言：</h1><p> windows蓝屏是最常见的一个电脑问题。</p>
+    document.addEventListener('pjax:complete', detectApple)})(window)</script><meta name="generator" content="Hexo 5.2.0"></head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="/media/avatar.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">文章</div><div class="length-num">1</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 目录</span><i class="fas fa-chevron-down expand hide"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/Gallery/"><i class="fa-fw fas fa-images"></i><span> 图库</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 传送门</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('/blog/Windows%E8%93%9D%E5%B1%8F%E4%BB%A3%E7%A0%81%E8%AF%A6%E8%A7%A3/2.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">Hello</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 目录</span><i class="fas fa-chevron-down expand hide"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/Gallery/"><i class="fa-fw fas fa-images"></i><span> 图库</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 传送门</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Windows蓝屏代码详解</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-07-15T02:13:53.000Z" title="发表于 2022-07-15 10:13:53">2022-07-15</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-07-15T05:55:13.593Z" title="更新于 2022-07-15 13:55:13">2022-07-15</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">13.2k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>41分钟</span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="前言："><a href="#前言：" class="headerlink" title="前言："></a>前言：</h1><p> windows蓝屏是最常见的一个电脑问题。</p>
 <h1 id="蓝屏代码大全"><a href="#蓝屏代码大全" class="headerlink" title="蓝屏代码大全"></a>蓝屏代码大全</h1><p>  以下是andwindows所整理的windows蓝屏代码</p>
-<p>  <img src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="1.jpg" alt=""></p>
+<p>00000001</p>
+<p>BSOD意味着APC状态指数存在不匹配。BSOD错误代码0x00000001也可能在同一蓝色屏幕上显示“APC_INDEX_MISMATCH”。</p>
+<p>0x00000002</p>
+<p>这种BSOD并不常见。BSOD错误代码0x00000002也可能在同一蓝色屏幕上显示“DEVICE_QUEUE_NOT_BUSY”。</p>
+<p>0x00000003</p>
+<p>这种BSOD并不常见。蓝屏错误代码0x00000003也可能在同一蓝屏上显示“INVALID_AFFINITY_SET”。</p>
+<p>0x00000004</p>
+<p>这种BSOD并不常见。BSOD错误代码0x00000004也可能在同一蓝色屏幕上显示“INVALID_DATA_ACCESS_TRAP”。</p>
+<p>0x00000005</p>
+<p>这种BSOD并不常见。BSOD错误代码0x00000005也可能在同一蓝屏上显示“INVALID_PROCESS_ATTACH_ATTEMPT”。</p>
+<p>0x00000006</p>
+<p>这种BSOD并不常见。BSOD错误代码0x00000006也可能在同一蓝屏上显示“INVALID_PROCESS_DETACH_ATTEMPT”。</p>
+<p>0x00000007</p>
+<p>这种BSOD并不常见。BSOD错误代码0x00000007也可能在同一蓝屏上显示“INVALID_SOFTWARE_INTERRUPT”。</p>
+<p>0x00000008</p>
+<p>这种BSOD并不常见。蓝屏错误代码0x00000008也可能在同一蓝屏上显示“IRQL_NOT_DISPATCH_LEVEL”。</p>
+<p>0x00000009</p>
+<p>这种BSOD并不常见。蓝屏错误代码0x00000009也可能在同一蓝屏上显示“IRQL_NOT_GREATER_OR_EQUAL”。</p>
+<p>0X0000000A</p>
+<p>此BSOD意味着Microsoft Windows或内核模式驱动程序在DISPATCH_LEVEL或更高级别访问分页内存。蓝屏错误代码0x0000000A也可能在同一蓝屏上显示“IRQL_NOT_LESS_OR_EQUAL”。</p>
+<p>0x0000000B</p>
+<p>这种BSOD并不常见。蓝屏错误代码0x0000000B也可能在同一蓝屏上显示“NO_EXCEPTION_HANDLING_SUPPORT”。</p>
+<p>0x0000000C</p>
+<p>此BSOD表示当前线程超过了允许的等待对象数。BSOD错误代码0x0000000C也可能在同一蓝色屏幕上显示“MAXIMUM_WAIT_OBJECTS_EXCEEDED”。</p>
+<p>0x0000000D</p>
+<p>这种BSOD并不常见。BSOD错误代码0x0000000D也可能在同一蓝色屏幕上显示“MUTEX_LEVEL_NUMBER_VIOLATION”。</p>
+<p>0x0000000E</p>
+<p>这种BSOD并不常见。蓝屏错误代码0x0000000E也可能在同一蓝屏上显示“NO_USER_MODE_CONTEXT”。</p>
+<p>0x0000000F</p>
+<p>这个BSOD意味着当自旋锁已经拥有时，已经启动了对自旋锁的请求。蓝屏错误代码0x0000000F也可能在同一蓝屏上显示“SPIN_LOCK_ALREADY_OWNED”。</p>
+<p>0x00000010</p>
+<p>这种BSOD并不常见。蓝屏错误代码0x00000010也可能在同一蓝屏上显示“SPIN_LOCK_NOT_OWNED”。</p>
+<p>0x00000011</p>
+<p>这种BSOD并不常见。BSOD错误代码0x00000011也可能在同一蓝屏上显示“THREAD_NOT_MUTEX_OWNER”。</p>
+<p>0x00000012</p>
+<p>这个BSOD意味着发生了一个未知的异常。BSOD错误代码0x00000012也可能会在同一蓝色屏幕上显示“TRAP_CAUSE_UNKNOWN”。</p>
+<p>0x00000013</p>
+<p>这种BSOD并不常见。BSOD错误代码0x00000013也可能在同一蓝屏上显示“EMPTY_THREAD_REAPER_LIST”。</p>
+<p>0x00000014</p>
+<p>这种BSOD并不常见。BSOD错误代码0x00000014也可能在同一蓝屏上显示“CREATE_DELETE_LOCK_NOT_LOCKED”。</p>
+<p>0x00000015</p>
+<p>这种BSOD并不常见。BSOD错误代码0x00000015也可能在同一蓝屏上显示“LAST_CHANCE_CALLED_FROM_KMODE”。</p>
+<p>0x00000016</p>
+<p>这种BSOD并不常见。BSOD错误代码0x00000016也可能会在同一蓝色屏幕上显示“CID_HANDLE_CREATION”。</p>
+<p>0x00000017</p>
+<p>这种BSOD并不常见。BSOD错误代码0x00000017也可能在同一蓝屏上显示“CID_HANDLE_DELETION”。</p>
+<p>0x00000018</p>
+<p>这个BSOD意味着对象的引用计数对于对象的当前状态是非法的。BSOD错误代码0x00000018也可能会在同一蓝色屏幕上显示“REFERENCE_BY_POINTER”。</p>
+<p>0x00000019</p>
+<p>此BSOD表示池标头已损坏。BSOD错误代码0x00000019也可能在同一蓝屏上显示“BAD_POOL_HEADER”。</p>
+<p>0x0000001A</p>
+<p>这个BSOD意味着发生了严重的内存管理错误。BSOD错误代码0x0000001A也可能会在同一蓝色屏幕上显示“MEMORY_MANAGEMENT”。</p>
+<p>0x0000001B</p>
+<p>这种BSOD并不常见。蓝屏错误代码0x0000001B也可能在同一蓝屏上显示“PFN_SHARE_COUNT”。</p>
+<p>0x0000001C</p>
+<p>这种BSOD并不常见。BSOD错误代码0x0000001C也可能在同一蓝色屏幕上显示“PFN_REFERENCE_COUNT”。</p>
+<p>0x0000001D</p>
+<p>这种BSOD并不常见。BSOD错误代码0x0000001D也可能在同一蓝屏上显示“NO_SPIN_LOCK_AVAILABLE”。</p>
+<p>0X0000001E</p>
+<p>这个BSOD意味着一个内核模式程序产生了一个错误处理程序没有捕获的异常。BSOD错误代码0x0000001E也可能会在同一蓝色屏幕上显示“KMODE_EXCEPTION_NOT_HANDLED”。</p>
+<p>0x0000001F</p>
+<p>这种BSOD并不常见。BSOD错误代码0x0000001F也可能会在同一蓝色屏幕上显示“SHARED_RESOURCE_CONV_ERROR”。</p>
+<p>0x00000020</p>
+<p>这个BSOD意味着一个线程退出时，异步过程调用（APC）仍然处于等待状态。BSOD错误代码0x00000020也可能在同一蓝色屏幕上显示“KERNEL_APC_PENDING_DURING_EXIT”。</p>
+<p>0x00000021</p>
+<p>该BSOD意味着通过向特定区块返回比以前收取的更多配额而错误处理配额费用。BSOD错误代码0x00000021也可能在同一蓝屏上显示“QUOTA_UNDERFLOW”。</p>
+<p>0x00000022</p>
+<p>这种BSOD并不常见。BSOD错误代码0x00000022也可能在同一蓝色屏幕上显示“FILE_SYSTEM”。</p>
+<p>0x00000023</p>
+<p>此BSOD表示FAT文件系统中出现问题。BSOD错误代码0x00000023也可能在同一蓝屏上显示“FAT_FILE_SYSTEM”。</p>
+<p>0x00000024</p>
+<p>此BSOD表示ntfs.sys中出现问题，该驱动程序文件允许系统读取和写入NTFS驱动器。BSOD错误代码0x00000024也可能在同一蓝屏上显示“NTFS_FILE_SYSTEM”。</p>
+<p>0x00000025</p>
+<p>这个BSOD意味着在NPFS 文件系统中发生了一个问题。蓝屏错误代码0x00000025也可能在同一蓝屏上显示“NPFS_FILE_SYSTEM”。</p>
+<p>0x00000026</p>
+<p>这个BSOD意味着在CD文件系统中发生了一个问题。BSOD错误代码0x00000026也可能在同一蓝屏上显示“CDFS_FILE_SYSTEM”。</p>
+<p>0x00000027</p>
+<p>此BSOD表示SMB重定向器文件系统中出现问题。BSOD错误代码0x00000027也可能在同一蓝屏上显示“RDR_FILE_SYSTEM”。</p>
+<p>0x00000028</p>
+<p>这种BSOD并不常见。蓝屏错误代码0x00000028也可能在同一蓝屏上显示“CORRUPT_ACCESS_TOKEN”。</p>
+<p>0x00000029</p>
+<p>这种BSOD并不常见。蓝屏错误代码0x00000029也可能在同一蓝屏上显示“SECURITY_SYSTEM”。</p>
+<p>0x0000002A</p>
+<p>该BSOD意味着发现IRP包含不一致的信息。蓝屏错误代码0x0000002A也可能在同一蓝屏上显示“INCONSISTENT_IRP”。</p>
+<p>0x0000002B</p>
+<p>这个BSOD意味着内核模式堆栈溢出。BSOD错误代码0x0000002B也可能在同一蓝色屏幕上显示“PANIC_STACK_SWITCH”。</p>
+<p>0x0000002C</p>
+<p>这种BSOD并不常见。BSOD错误代码0x0000002C也可能在同一蓝色屏幕上显示“PORT_DRIVER_INTERNAL”。</p>
+<p>0x0000002D</p>
+<p>这种BSOD并不常见。蓝屏错误代码0x0000002D也可能在同一蓝屏上显示“SCSI_DISK_DRIVER_INTERNAL”。</p>
+<p>0x0000002E</p>
+<p>该BSOD表示已检测到系统存储器中的奇偶校验错误。BSOD错误代码0x0000002E也可能会在同一蓝色屏幕上显示“DATA_BUS_ERROR”。</p>
+<p>0x0000002F</p>
+<p>这种BSOD并不常见。蓝屏错误代码0x0000002F也可能会在同一蓝屏上显示“INSTRUCTION_BUS_ERROR”。</p>
+<p>0x00000030</p>
+<p>此BSOD表示陷阱帧中的堆栈指针具有无效值。BSOD错误代码0x00000030也可能在同一蓝色屏幕上显示“SET_OF_INVALID_CONTEXT”。</p>
+<p>0x00000031</p>
+<p>这个BSOD意味着系统初始化失败。BSOD错误代码0x00000031也可能会在同一蓝色屏幕上显示“PHASE0_INITIALIZATION_FAILED”。</p>
+<p>0x00000032</p>
+<p>这个BSOD意味着系统初始化失败。BSOD错误代码0x00000032也可能在同一蓝色屏幕上显示“PHASE1_INITIALIZATION_FAILED”。</p>
+<p>0x00000033</p>
+<p>这种BSOD并不常见。BSOD错误代码0x00000033也可能会在同一蓝色屏幕上显示“UNEXPECTED_INITIALIZATION_CALL”。</p>
+<p>0x00000034</p>
+<p>此BSOD表示文件系统的缓存管理器中出现问题。BSOD错误代码0x00000034也可能在同一蓝色屏幕上显示“CACHE_MANAGER”。</p>
+<p>0x00000035</p>
+<p>当IoCallDriver数据包没有剩余堆栈位置时发生此BSOD BSOD错误代码0x00000035也可能在同一蓝屏上显示“NO_MORE_IRP_STACK_LOCATIONS”。</p>
+<p>0x00000036</p>
+<p>这个BSOD意味着一个驱动程序试图删除一个仍然有一个正参考计数的设备对象。BSOD错误代码0x00000036也可能在同一蓝屏上显示“DEVICE_REFERENCE_COUNT_NOT_ZERO”。</p>
+<p>0x00000037</p>
+<p>这种BSOD并不常见。BSOD错误代码0x00000037也可能在同一蓝色屏幕上显示“FLOPPY_INTERNAL_ERROR”。</p>
+<p>0x00000038</p>
+<p>这种BSOD并不常见。BSOD错误代码0x00000038也可能在同一蓝色屏幕上显示“SERIAL_DRIVER_INTERNAL”。</p>
+<p>0x00000039</p>
+<p>此BSOD表示worker例程返回时未释放它拥有的互斥对象。BSOD错误代码0x00000039也可能在同一蓝色屏幕上显示“SYSTEM_EXIT_OWNED_MUTEX”。</p>
+<p>0x0000003A</p>
+<p>这种BSOD并不常见。蓝屏错误代码0x0000003A也可能在同一蓝屏上显示“SYSTEM_UNWIND_PREVIOUS_USER”。</p>
+<p>0x0000003B</p>
+<p>这个BSOD意味着在执行从非特权代码转换到特权代码的例程时发生异常。BSOD错误代码0x0000003B也可能会在同一蓝色屏幕上显示“SYSTEM_SERVICE_EXCEPTION”。</p>
+<p>0x0000003C</p>
+<p>这种BSOD并不常见。BSOD错误代码0x0000003C也可能在同一蓝色屏幕上显示“INTERRUPT_UNWIND_ATTEMPTED”。</p>
+<p>0x0000003D</p>
+<p>这种BSOD并不常见。BSOD错误代码0x0000003D也可能在同一蓝色屏幕上显示“INTERRUPT_EXCEPTION_NOT_HANDLED”。</p>
+<p>0x0000003E</p>
+<p>这个BSOD意味着系统有多个处理器，但是它们相互之间是不对称的。BSOD错误代码0x0000003E也可能在同一蓝屏上显示“MULTIPROCESSOR_CONFIGURATION_NOT_SUPPORTED”。</p>
+<p>0x0000003F</p>
+<p>该BSOD是系统执行了太多I / O操作的结果。这导致了碎片化的系统页表项（PTE）。BSOD错误代码0x0000003F也可能在同一蓝色屏幕上显示“NO_MORE_SYSTEM_PTES”。</p>
+<p>0x00000040</p>
+<p>此BSOD意味着驱动程序使用不当IoBuildPartialMdl BSOD错误代码0x00000040也可能在同一蓝色屏幕上显示“TARGET_MDL_TOO_SMALL”。</p>
+<p>0x00000041</p>
+<p>这个BSOD意味着内核模式线程已经请求了太多必须成功的池。蓝屏错误代码0x00000041也可能在同一蓝屏上显示“MUST_SUCCEED_POOL_EMPTY”。</p>
+<p>0x00000042</p>
+<p>这种BSOD并不常见。BSOD错误代码0x00000042也可能在同一蓝色屏幕上显示“ATDISK_DRIVER_INTERNAL”。</p>
+<p>0x00000043</p>
+<p>这种BSOD并不常见。BSOD错误代码0x00000043也可能在同一蓝屏上显示“NO_SUCH_PARTITION”。</p>
+<p>0x00000044</p>
+<p>此BSOD表示驱动程序已尝试请求已完成的IRP已完成。BSOD错误代码0x00000044也可能在同一蓝屏上显示“MULTIPLE_IRP_COMPLETE_REQUESTS”。</p>
+<p>0x00000045</p>
+<p>这种BSOD并不常见。BSOD错误代码0x00000045也可能在同一蓝色屏幕上显示“INSUFFICIENT_SYSTEM_MAP_REGS”。</p>
+<p>0x00000046</p>
+<p>这种BSOD并不常见。BSOD错误代码0x00000046也可能在同一蓝色屏幕上显示“DEREF_UNKNOWN_LOGON_SESSION”。</p>
+<p>0x00000047</p>
+<p>这种BSOD并不常见。蓝屏错误代码0x00000047也可能在同一蓝屏上显示“REF_UNKNOWN_LOGON_SESSION”。</p>
+<p>0x00000048</p>
+<p>该BSOD表示I / O请求包（IRP）已完成，随后被取消。BSOD错误代码0x00000048也可能会在同一蓝色屏幕上显示“CANCEL_STATE_IN_COMPLETED_IRP”。</p>
+<p>0x00000049</p>
+<p>这种BSOD并不常见。蓝屏错误代码0x00000049也可能在同一蓝屏上显示“PAGE_FAULT_WITH_INTERRUPTS_OFF”。</p>
+<p>0x0000004A</p>
+<p>这个BSOD意味着一个线程在IRQL仍高于PASSIVE_LEVEL时从系统调用返回到用户模式。蓝屏错误代码0x0000004A也可能在同一蓝屏上显示“IRQL_GT_ZERO_AT_SYSTEM_SERVICE”。</p>
+<p>0x0000004B</p>
+<p>这种BSOD并不常见。BSOD错误代码0x0000004B也可能在同一蓝色屏幕上显示“STREAMS_INTERNAL_ERROR”。</p>
+<p>0x0000004C</p>
+<p>这种BSOD并不常见。BSOD错误代码0x0000004C也可能在同一蓝色屏幕上显示“FATAL_UNHANDLED_HARD_ERROR”。</p>
+<p>0x0000004D</p>
+<p>这个BSOD意味着没有空闲页面可用于继续操作。BSOD错误代码0x0000004D也可能在同一蓝屏上显示“NO_PAGES_AVAILABLE”。</p>
+<p>0x0000004E</p>
+<p>该BSOD表示页面帧号（PFN）列表已损坏。蓝屏错误代码0x0000004E也可能在同一蓝屏上显示“PFN_LIST_CORRUPT”。</p>
+<p>0x0000004F</p>
+<p>这种BSOD并不常见。BSOD错误代码0x0000004F也可能在同一蓝色屏幕上显示“NDIS_INTERNAL_ERROR”。</p>
+<p>0x00000050</p>
+<p>此BSOD表示已引用无效的系统内存。BSOD错误代码0x00000050也可能在同一蓝屏上显示“PAGE_FAULT_IN_NONPAGED_AREA”。</p>
+<p>0x00000051</p>
+<p>此BSOD表示发生了严重的注册表错误。BSOD错误代码0x00000051也可能在同一蓝色屏幕上显示“REGISTRY_ERROR”。</p>
+<p>0x00000052</p>
+<p>这种BSOD并不常见。BSOD错误代码0x00000052也可能在同一蓝屏上显示“MAILSLOT_FILE_SYSTEM”。</p>
+<p>0x00000053</p>
+<p>这种BSOD并不常见。BSOD错误代码0x00000053也可能会在同一蓝色屏幕上显示“NO_BOOT_DEVICE”。</p>
+<p>0x00000054</p>
+<p>这种BSOD并不常见。BSOD错误代码0x00000054也可能在同一蓝屏上显示“LM_SERVER_INTERNAL_ERROR”。</p>
+<p>0x00000055</p>
+<p>这种BSOD并不常见。BSOD错误代码0x00000055也可能在同一蓝屏上显示“DATA_COHERENCY_EXCEPTION”。</p>
+<p>0x00000056</p>
+<p>这种BSOD并不常见。BSOD错误代码0x00000056也可能在同一蓝屏上显示“INSTRUCTION_COHERENCY_EXCEPTION”。</p>
+<p>0x00000057</p>
+<p>这种BSOD并不常见。BSOD错误代码0x00000057也可能在同一蓝色屏幕上显示“XNS_INTERNAL_ERROR”。</p>
+<p>0x00000058</p>
+<p>如果从镜像分区的错误副本引导系统，则会出现此BSOD 。BSOD错误代码0x00000058也可能在同一蓝屏上显示“FTDISK_INTERNAL_ERROR”。</p>
+<p>0x00000059</p>
+<p>这个BSOD意味着弹球文件系统发生了问题。蓝屏错误代码0x00000059也可能会在同一蓝屏上显示“PINBALL_FILE_SYSTEM”。</p>
+<p>0x0000005A</p>
+<p>这种BSOD并不常见。蓝屏错误代码0x0000005A也可能在同一蓝屏上显示“CRITICAL_SERVICE_FAILED”。</p>
+<p>0x0000005B</p>
+<p>这种BSOD并不常见。BSOD错误代码0x0000005B也可能在同一蓝色屏幕上显示“SET_ENV_VAR_FAILED”。</p>
+<p>0x0000005C</p>
+<p>这种BSOD并不常见。蓝屏错误代码0x0000005C也可能会在同一蓝屏上显示“HAL_INITIALIZATION_FAILED”。</p>
+<p>0x0000005D</p>
+<p>此BSOD表示计算机正在尝试在不受支持的处理器上运行Windows。BSOD错误代码0x0000005D也可能在同一蓝色屏幕上显示“UNSUPPORTED_PROCESSOR”。</p>
+<p>0x0000005E</p>
+<p>这种BSOD并不常见。BSOD错误代码0x0000005E也可能在同一蓝色屏幕上显示“OBJECT_INITIALIZATION_FAILED”。</p>
+<p>0x0000005F</p>
+<p>这种BSOD并不常见。蓝屏错误代码0x0000005F也可能在同一蓝屏上显示“SECURITY_INITIALIZATION_FAILED”。</p>
+<p>0x00000060</p>
+<p>这种BSOD并不常见。BSOD错误代码0x00000060也可能会在同一蓝色屏幕上显示“PROCESS_INITIALIZATION_FAILED”。</p>
+<p>0x00000061</p>
+<p>这种BSOD并不常见。蓝屏错误代码0x00000061也可能在同一蓝屏上显示“HAL1_INITIALIZATION_FAILED”。</p>
+<p>0x00000062</p>
+<p>这种BSOD并不常见。BSOD错误代码0x00000062也可能在同一蓝色屏幕上显示“OBJECT1_INITIALIZATION_FAILED”。</p>
+<p>0x00000063</p>
+<p>这种BSOD并不常见。BSOD错误代码0x00000063也可能在同一蓝色屏幕上显示“SECURITY1_INITIALIZATION_FAILED”。</p>
+<p>0x00000064</p>
+<p>这种BSOD并不常见。BSOD错误代码0x00000064也可能在同一蓝屏上显示“SYMBOLIC_INITIALIZATION_FAILED”。</p>
+<p>0x00000065</p>
+<p>这种BSOD并不常见。BSOD错误代码0x00000065也可能在同一蓝屏上显示“MEMORY1_INITIALIZATION_FAILED”。</p>
+<p>0x00000066</p>
+<p>这种BSOD并不常见。BSOD错误代码0x00000066也可能在同一蓝屏上显示“CACHE_INITIALIZATION_FAILED”。</p>
+<p>0x00000067</p>
+<p>此BSOD表示注册表配置失败。BSOD错误代码0x00000067也可能在同一蓝屏上显示“CONFIG_INITIALIZATION_FAILED”。</p>
+<p>0x00000068</p>
+<p>这种BSOD并不常见。BSOD错误代码0x00000068也可能在同一蓝色屏幕上显示“FILE_INITIALIZATION_FAILED”。</p>
+<p>0x00000069</p>
+<p>这个BSOD意味着I / O系统的初始化由于某种原因失败。蓝屏错误代码0x00000069也可能在同一蓝屏上显示“IO1_INITIALIZATION_FAILED”。</p>
+<p>0x0000006A</p>
+<p>这种BSOD并不常见。蓝屏错误代码0x0000006A也可能在同一蓝屏上显示“LPC_INITIALIZATION_FAILED”。</p>
+<p>0x0000006B</p>
+<p>此BSOD表示Microsoft Windows操作系统的初始化失败。BSOD错误代码0x0000006B也可能会在同一蓝色屏幕上显示“PROCESS1_INITIALIZATION_FAILED”。</p>
+<p>0x0000006C</p>
+<p>这种BSOD并不常见。BSOD错误代码0x0000006C也可能会在同一蓝色屏幕上显示“REFMON_INITIALIZATION_FAILED”。</p>
+<p>0x0000006D</p>
+<p>这个BSOD意味着Microsoft Windows操作系统的初始化失败。蓝屏错误代码0x0000006D也可能在同一蓝屏上显示“SESSION1_INITIALIZATION_FAILED”。</p>
+<p>0x0000006E</p>
+<p>这个BSOD意味着Microsoft Windows操作系统的初始化失败。蓝屏错误代码0x0000006E也可能在同一蓝屏上显示“SESSION2_INITIALIZATION_FAILED”。</p>
+<p>0x0000006F</p>
+<p>这个BSOD意味着Microsoft Windows操作系统初始化的初始化。蓝屏错误代码0x0000006F也可能在同一蓝屏上显示“SESSION3_INITIALIZATION_FAILED”。</p>
+<p>0x00000070</p>
+<p>这个BSOD意味着Microsoft Windows操作系统的初始化失败。BSOD错误代码0x00000070也可能会在同一蓝色屏幕上显示“SESSION4_INITIALIZATION_FAILED”。</p>
+<p>0x00000071</p>
+<p>此BSOD表示Microsoft Windows操作系统的初始化失败。BSOD错误代码0x00000071也可能会在同一蓝色屏幕上显示“SESSION5_INITIALIZATION_FAILED”。</p>
+<p>0x00000072</p>
+<p>这种BSOD并不常见。蓝屏错误代码0x00000072也可能会在同一蓝屏上显示“ASSIGN_DRIVE_LETTERS_FAILED”。</p>
+<p>0x00000073</p>
+<p>此BSOD意味着其中一个顶级注册表项（也称为核心系统配置单元）无法链接到注册表树中。BSOD错误代码0x00000073也可能在同一蓝色屏幕上显示“CONFIG_LIST_FAILED”。</p>
+<p>0x00000074</p>
+<p>这个BSOD意味着注册表中有错误。BSOD错误代码0x00000074也可能在同一蓝屏上显示“BAD_SYSTEM_CONFIG_INFO”。</p>
+<p>0x00000075</p>
+<p>此BSOD表示SYSTEM注册表配置单元文件无法转换为映射文件。BSOD错误代码0x00000075也可能在同一蓝屏上显示“CANNOT_WRITE_CONFIGURATION”。</p>
+<p>0x00000076</p>
+<p>此BSOD表示驱动程序在I / O操作后无法释放锁定的页面。BSOD错误代码0x00000076也可能在同一蓝屏上显示“PROCESS_HAS_LOCKED_PAGES”。</p>
+<p>0x00000077</p>
+<p>该BSOD意味着来自页面文件的所请求的内核数据页面无法读入内存。BSOD错误代码0x00000077也可能在同一蓝屏上显示“KERNEL_STACK_INPAGE_ERROR”。</p>
+<p>0x00000078</p>
+<p>这种BSOD并不常见。BSOD错误代码0x00000078也可能会在同一蓝色屏幕上显示“PHASE0_EXCEPTION”。</p>
+<p>0x00000079</p>
+<p>此BSOD表示硬件抽象层（HAL）修订级别或配置与内核或计算机的级别或配置不匹配。BSOD错误代码0x00000079也可能在同一蓝屏上显示“MISMATCHED_HAL”。</p>
+<p>0x0000007A</p>
+<p>该BSOD意味着来自页面文件的所请求的内核数据页面无法读入内存。BSOD错误代码0x0000007A也可能在同一蓝屏上显示“KERNEL_DATA_INPAGE_ERROR”。</p>
+<p>0X0000007B</p>
+<p>此BSOD表示Microsoft Windows操作系统在启动期间失去了对系统分区的访问权限。蓝屏错误代码0x0000007B也可能在同一蓝屏上显示“INACCESSIBLE_BOOT_DEVICE”。</p>
+<p>0x0000007C</p>
+<p>这个蓝屏意味着NDIS驱动程序出现问题。BSOD错误代码0x0000007C也可能会在同一蓝色屏幕上显示“BUGCODE_NDIS_DRIVER”。</p>
+<p>0x0000007D</p>
+<p>此BSOD表示没有足够的内存来启动Microsoft Windows操作系统。BSOD错误代码0x0000007D也可能在同一蓝色屏幕上显示“INSTALL_MORE_MEMORY”。</p>
+<p>0x0000007E</p>
+<p>此BSOD表示系统线程生成了错误处理程序未捕获的异常。蓝屏错误代码0x0000007E也可能在同一蓝屏上显示“SYSTEM_THREAD_EXCEPTION_NOT_HANDLED”。</p>
+<p>0x0000007F</p>
+<p>这个BSOD意味着英特尔CPU产生了一个陷阱，并且内核未能抓住这个陷阱。BSOD错误代码0x0000007F也可能会在同一蓝色屏幕上显示“UNEXPECTED_KERNEL_MODE_TRAP”。</p>
+<p>0x00000080</p>
+<p>这个BSOD意味着发生了硬件故障。BSOD错误代码0x00000080也可能在同一蓝屏上显示“NMI_HARDWARE_FAILURE”。</p>
+<p>0x00000081</p>
+<p>这种BSOD并不常见。蓝屏错误代码0x00000081也可能会在同一蓝屏上显示“SPIN_LOCK_INIT_FAILURE”。</p>
+<p>0x00000082</p>
+<p>这种BSOD并不常见。BSOD错误代码0x00000082也可能在同一蓝色屏幕上显示“DFS_FILE_SYSTEM”。</p>
+<p>0x00000085</p>
+<p>此BSOD表示在安装过程中发生致命错误。BSOD错误代码0x00000085也可能在同一蓝色屏幕上显示“SETUP_FAILURE”。</p>
+<p>0x0000008B</p>
+<p>这个BSOD意味着在MBR校验和中发生了不匹配。BSOD错误代码0x0000008B也可能在同一蓝屏上显示“MBR_CHECKSUM_MISMATCH”。</p>
+<p>0x0000008E</p>
+<p>这个BSOD意味着内核模式应用程序产生了一个错误处理程序没有捕获的异常。BSOD错误代码0x0000008E也可能在同一蓝色屏幕上显示“KERNEL_MODE_EXCEPTION_NOT_HANDLED”。</p>
+<p>0x0000008F</p>
+<p>这个BSOD意味着即插即用（PnP）管理器无法初始化。BSOD错误代码0x0000008F也可能在同一蓝色屏幕上显示“PP0_INITIALIZATION_FAILED”。</p>
+<p>0x00000090</p>
+<p>这个BSOD意味着即插即用（PnP）管理器无法初始化。BSOD错误代码0x00000090也可能在同一蓝屏上显示“PP1_INITIALIZATION_FAILED”。</p>
+<p>0x00000092</p>
+<p>这个BSOD意味着一个单处理器的驱动程序已经加载到多处理器系统上。BSOD错误代码0x00000092也可能在同一蓝屏上显示“UP_DRIVER_ON_MP_SYSTEM”。</p>
+<p>0x00000093</p>
+<p>此BSOD表示将无效或受保护的句柄传递给NtClose。BSOD错误代码0x00000093也可能在同一蓝屏上显示“INVALID_KERNEL_HANDLE”。</p>
+<p>0x00000094</p>
+<p>这个BSOD意味着一个线程在其内核堆栈被标记为不可交换时退出。BSOD错误代码0x00000094也可能在同一蓝色屏幕上显示“KERNEL_STACK_LOCKED_AT_EXIT”。</p>
+<p>0x00000096</p>
+<p>这个BSOD意味着删除了一个包含空指针的队列条目。BSOD错误代码0x00000096也可能在同一蓝色屏幕上显示“INVALID_WORK_QUEUE_ITEM”。</p>
+<p>0x00000097</p>
+<p>这种BSOD并不常见。蓝屏错误代码0x00000097也可能在同一蓝屏上显示“BOUND_IMAGE_UNSUPPORTED”。</p>
+<p>0x00000098</p>
+<p>此BSOD表示Microsoft Windows操作系统的试用期已结束。蓝屏错误代码0x00000098也可能在同一蓝屏上显示“END_OF_NT_EVALUATION_PERIOD”。</p>
+<p>0x00000099</p>
+<p>这个BSOD意味着ExInitializeRegion或ExInterlockedExtendRegion被调用了一组无效的参数。BSOD错误代码0x00000099也可能在同一蓝色屏幕上显示“INVALID_REGION_OR_SEGMENT”。</p>
+<p>0x0000009A</p>
+<p>这种BSOD意味着软件许可协议已被违反。蓝屏错误代码0x0000009A也可能在同一蓝屏上显示“SYSTEM_LICENSE_VIOLATION”。</p>
+<p>0x0000009B</p>
+<p>这个BSOD意味着在UDF文件系统中发生了一个问题。BSOD错误代码0x0000009B也可能在同一蓝色屏幕上显示“UDFS_FILE_SYSTEM”。</p>
+<p>0x0000009C</p>
+<p>这个BSOD意味着发生了一个致命的机器检查异常。BSOD错误代码0x0000009C也可能在同一蓝屏上显示“MACHINE_CHECK_EXCEPTION”。</p>
+<p>0x0000009E</p>
+<p>此BSOD意味着一个或多个关键用户模式组件无法满足健康检查。蓝屏错误代码0x0000009E也可能在同一蓝屏上显示“USER_MODE_HEALTH_MONITOR”。</p>
+<p>0x0000009F</p>
+<p>此蓝屏表示驱动程序处于不一致或无效的电源状态。BSOD错误代码0x0000009F也可能在同一蓝色屏幕上显示“DRIVER_POWER_STATE_FAILURE”。</p>
+<p>0X000000A0</p>
+<p>此BSOD表示电源策略管理器遇到致命错误。BSOD错误代码0x000000A0也可能在同一蓝色屏幕上显示“INTERNAL_POWER_ERROR”。</p>
+<p>0x000000A1</p>
+<p>此BSOD表示PCI总线驱动程序在其内部结构中检测到不一致问题，无法继续。BSOD错误代码0x000000A1也可能在同一蓝屏上显示“PCI_BUS_DRIVER_INTERNAL”。</p>
+<p>0x000000A2</p>
+<p>这个BSOD意味着已经在内存中的可执行文件的图像中检测到损坏。BSOD错误代码0x000000A2也可能会在同一蓝色屏幕上显示“MEMORY_IMAGE_CORRUPT”。</p>
+<p>0x000000A3</p>
+<p>此蓝屏意味着ACPI驱动程序检测到内部不一致。BSOD错误代码0x000000A3也可能在同一蓝色屏幕上显示“ACPI_DRIVER_INTERNAL”。</p>
+<p>0x000000A4</p>
+<p>这个BSOD意味着CNSS文件系统过滤器发生问题。蓝屏错误代码0x000000A4也可能在同一蓝屏上显示“CNSS_FILE_SYSTEM_FILTER”。</p>
+<p>0x000000A5</p>
+<p>此蓝屏意味着计算机的高级配置和电源接口（ACPI）BIOS不完全符合ACPI规范。BSOD错误代码0x000000A5也可能在同一蓝屏上显示“ACPI_BIOS_ERROR”。</p>
+<p>0x000000A7</p>
+<p>该BSOD意味着内核模式句柄表检测到不一致的句柄表条目状态。BSOD错误代码0x000000A7也可能会在同一蓝色屏幕上显示“BAD_EXHANDLE”。</p>
+<p>0x000000AB</p>
+<p>此BSOD意味着会话驱动程序仍然保留内存时发生会话卸载。BSOD错误代码0x000000AB也可能会在同一蓝色屏幕上显示“SESSION_HAS_VALID_POOL_ON_EXIT”。</p>
+<p>0x000000AC</p>
+<p>这个BSOD意味着硬件抽象层（HAL）无法获得足够的内存。蓝屏错误代码0x000000AC也可能在同一蓝屏上显示“HAL_MEMORY_ALLOCATION”。</p>
+<p>0x000000AD</p>
+<p>此蓝屏意味着视频端口在运行时代表视频驱动程序创建了一个非致命的小型转储。蓝屏错误代码0x000000AD也可能在同一蓝屏上显示“VIDEO_DRIVER_DEBUG_REPORT_REQUEST”。</p>
+<p>0x000000B4</p>
+<p>这个BSOD意味着Windows无法进入图形模式。BSOD错误代码0x000000B4也可能在同一蓝屏上显示“VIDEO_DRIVER_INIT_FAILURE”。</p>
+<p>0x000000B8</p>
+<p>该BSOD意味着通过延迟程序调用（DPC）例程尝试进行非法操作。BSOD错误代码0x000000B8也可能会在同一蓝色屏幕上显示“ATTEMPTED_SWITCH_FROM_DPC”。</p>
+<p>0x000000B9</p>
+<p>这种BSOD并不常见。BSOD错误代码0x000000B9也可能会在同一蓝色屏幕上显示“CHIPSET_DETECTED_ERROR”。</p>
+<p>0x000000BA</p>
+<p>这个BSOD意味着会话驱动程序在卸载会话时仍然映射了视图。BSOD错误代码0x000000BA也可能会在同一蓝色屏幕上显示“SESSION_HAS_VALID_VIEWS_ON_EXIT”。</p>
+<p>0x000000BB</p>
+<p>此BSOD表示Windows无法成功启动网络。蓝屏错误代码0x000000BB也可能在同一蓝屏上显示“NETWORK_BOOT_INITIALIZATION_FAILED”。</p>
+<p>0x000000BC</p>
+<p>此蓝屏意味着在启动网络时为本机分配了重复的IP地址。BSOD错误代码0x000000BC也可能在同一蓝色屏幕上显示“NETWORK_BOOT_DUPLICATE_ADDRESS”。</p>
+<p>0x000000BE</p>
+<p>如果驱动程序试图写入只读内存段，则会显示此蓝屏死机。BSOD错误代码0x000000BE也可能在同一蓝色屏幕上显示“ATTEMPTED_WRITE_TO_READONLY_MEMORY”。</p>
+<p>0x000000BF</p>
+<p>此BSOD表示某个线程试图获取其已拥有的互斥锁的所有权。BSOD错误代码0x000000BF也可能会在同一蓝色屏幕上显示“MUTEX_ALREADY_OWNED”。</p>
+<p>0x000000C1</p>
+<p>这个BSOD意味着驱动程序写入特殊池的无效部分。BSOD错误代码0x000000C1也可能在同一蓝色屏幕上显示“SPECIAL_POOL_DETECTED_MEMORY_CORRUPTION”。</p>
+<p>0x000000C2</p>
+<p>这个BSOD意味着当前线程正在做出糟糕的池请求。BSOD错误代码0x000000C2也可能会在同一蓝色屏幕上显示“BAD_POOL_CALLER”。</p>
+<p>0x000000C4</p>
+<p>此BSOD是Driver Verifier发现的致命错误的常规STOP代码。BSOD错误代码0x000000C4也可能会在同一蓝色屏幕上显示“DRIVER_VERIFIER_DETECTED_VIOLATION”。</p>
+<p>0x000000C5</p>
+<p>BSOD意味着系统尝试在IRQL过高的情况下访问无效内存。BSOD错误代码0x000000C5也可能会在同一蓝色屏幕上显示“DRIVER_CORRUPTED_EXPOOL”。</p>
+<p>0x000000C6</p>
+<p>这个BSOD意味着驱动程序试图访问释放的内存池。BSOD错误代码0x000000C6也可能会在同一蓝色屏幕上显示“DRIVER_CAUGHT_MODIFYING_FREED_POOL”。</p>
+<p>0x000000C7</p>
+<p>如果在内存中某处找到内核计时器或延迟过程调用（DPC），则会出现此BSOD。BSOD错误代码0x000000C7也可能在同一蓝屏上显示“TIMER_OR_DPC_INVALID”。</p>
+<p>0x000000C8</p>
+<p>这个BSOD意味着处理器的IRQL目前不是它应该的样子。蓝屏错误代码0x000000C8也可能在同一蓝屏上显示“IRQL_UNEXPECTED_VALUE”。</p>
+<p>0x000000C9</p>
+<p>此BSOD是所有驱动程序验证程序I / O验证违规的STOP代码。BSOD错误代码0x000000C9也可能会在同一蓝色屏幕上显示“DRIVER_VERIFIER_IOMANAGER_VIOLATION”。</p>
+<p>0x000000CA</p>
+<p>此BSOD意味着即插即用管理器遇到严重错误，可能是由于有问题的即插即用驱动程序。BSOD错误代码0x000000CA也可能在同一蓝色屏幕上显示“PNP_DETECTED_FATAL_ERROR”。</p>
+<p>0x000000CB</p>
+<p>此BSOD表示驱动程序或I / O管理器在I / O操作后无法释放锁定的页面。BSOD错误代码0x000000CB也可能在同一蓝色屏幕上显示“DRIVER_LEFT_LOCKED_PAGES_IN_PROCESS”。</p>
+<p>0x000000CC</p>
+<p>这个BSOD意味着系统引用了较早释放的内存。BSOD错误代码0x000000CC也可能在同一蓝色屏幕上显示“PAGE_FAULT_IN_FREED_SPECIAL_POOL”。</p>
+<p>0x000000CD</p>
+<p>此BSOD表示系统在某个驱动程序池分配结束后访问内存。蓝屏错误代码0x000000CD也可能在同一蓝屏上显示“PAGE_FAULT_BEYOND_END_OF_ALLOCATION”。</p>
+<p>0x000000CE</p>
+<p>这个BSOD意味着驱动程序在卸载之前未能取消挂起的操作。BSOD错误代码0x000000CE也可能在同一蓝色屏幕上显示“DRIVER_UNLOADED_WITHOUT_CANCELLING_PENDING_OPERATIONS”。</p>
+<p>0x000000CF</p>
+<p>此BSOD表示驱动程序已错误地移植到终端服务器。BSOD错误代码0x000000CF也可能在同一蓝色屏幕上显示“TERMINAL_SERVER_DRIVER_MADE_INCORRECT_MEMORY_REFERENCE”。</p>
+<p>0x000000D0</p>
+<p>此BSOD表示系统尝试在过高的进程IRQL上访问无效内存。BSOD错误代码0x000000D0也可能在同一蓝色屏幕上显示“DRIVER_CORRUPTED_MMPOOL”。</p>
+<p>0X000000D1</p>
+<p>此BSOD意味着内核模式驱动程序试图在过高的进程IRQL上访问可分页内存。蓝屏错误代码0x000000D1也可能会在同一蓝屏上显示“DRIVER_IRQL_NOT_LESS_OR_EQUAL”。</p>
+<p>0x000000D2</p>
+<p>这个蓝屏意味着NDIS驱动程序出现问题。BSOD错误代码0x000000D2也可能在同一蓝屏上显示“BUGCODE_ID_DRIVER”。</p>
+<p>0x000000D3</p>
+<p>这个BSOD意味着系统试图在IRQL过程中访问可分页的内存。BSOD错误代码0x000000D3也可能在同一蓝色屏幕上显示“DRIVER_PORTION_MUST_BE_NONPAGED”。</p>
+<p>0x000000D4</p>
+<p>这个BSOD意味着驱动程序在卸载之前没有取消挂起的操作。BSOD错误代码0x000000D4也可能在同一蓝屏上显示“SYSTEM_SCAN_AT_RAISED_IRQL_CAUGHT_IMPROPER_DRIVER_UNLOAD”。</p>
+<p>0x000000D5</p>
+<p>这个BSOD意味着驱动程序引用了较早释放的内存。BSOD错误代码0x000000D5也可能会在同一蓝色屏幕上显示“DRIVER_PAGE_FAULT_IN_FREED_SPECIAL_POOL”。</p>
+<p>0x000000D6</p>
+<p>该BSOD意味着驱动程序在其池分配结束后访问内存。BSOD错误代码0x000000D6也可能在同一蓝屏上显示“DRIVER_PAGE_FAULT_BEYOND_END_OF_ALLOCATION”。</p>
+<p>0x000000D7</p>
+<p>这个BSOD意味着一个驱动程序试图取消映射未映射的地址。BSOD错误代码0x000000D7也可能在同一蓝屏上显示“DRIVER_UNMAPPING_INVALID_VIEW”。</p>
+<p>0x000000D8</p>
+<p>这个BSOD意味着没有更多的系统页面表项（PTE）剩余。蓝屏错误代码0x000000D8也可能会在同一蓝屏上显示“DRIVER_USED_EXCESSIVE_PTES”。</p>
+<p>0x000000D9</p>
+<p>这个BSOD意味着内部的锁定页面跟踪结构已被破坏。BSOD错误代码0x000000D9也可能会在同一蓝色屏幕上显示“LOCKED_PAGES_TRACKER_CORRUPTION”。</p>
+<p>0x000000DA</p>
+<p>这种BSOD意味着页表项（PTE）例程以不正确的方式被使用。BSOD错误代码0x000000DA也可能在同一蓝色屏幕上显示“SYSTEM_PTE_MISUSE”。</p>
+<p>0x000000DB</p>
+<p>此BSOD意味着尝试在无效的IRQL上触摸内存，可能是由于系统PTE的损坏。蓝屏错误代码0x000000DB也可能在同一蓝屏上显示“DRIVER_CORRUPTED_SYSPTES”。</p>
+<p>0x000000DC</p>
+<p>这个BSOD意味着驱动程序访问了位于堆栈线程堆栈指针下方的堆栈地址。BSOD错误代码0x000000DC也可能在同一蓝色屏幕上显示“DRIVER_INVALID_STACK_ACCESS”。</p>
+<p>0x000000DE</p>
+<p>这个BSOD意味着一个驱动程序已损坏池内存，用于保存去往磁盘的页面。BSOD错误代码0x000000DE也可能在同一蓝色屏幕上显示“POOL_CORRUPTION_IN_FILE_AREA”。</p>
+<p>0x000000DF</p>
+<p>这个BSOD意味着一个工作项目在完成之前不会禁用模仿。蓝屏错误代码0x000000DF也可能在同一蓝屏上显示“IMPERSONATING_WORKER_THREAD”。</p>
+<p>0x000000E0</p>
+<p>此BSOD表示您的某个计算机组件出现故障。BSOD错误代码0x000000E0也可能在同一蓝色屏幕上显示“ACPI_BIOS_FATAL_ERROR”。</p>
+<p>0x000000E1</p>
+<p>这个BSOD意味着一个工作线程完成并返回IRQL&gt; = DISPATCH_LEVEL。BSOD错误代码0x000000E1也可能在同一蓝色屏幕上显示“WORKER_THREAD_RETURNED_AT_BAD_IRQL”。</p>
+<p>0x000000E2</p>
+<p>这个BSOD意味着用户故意从内核调试器或键盘启动故障转储。BSOD错误代码0x000000E2也可能在同一蓝屏上显示“MANUALLY_INITIATED_CRASH”。</p>
+<p>0x000000E3</p>
+<p>这个BSOD意味着一个线程试图释放它不拥有的资源。蓝屏错误代码0x000000E3也可能在同一蓝屏上显示“RESOURCE_NOT_OWNED”。</p>
+<p>0x000000E4</p>
+<p>此BSOD意味着不应包含执行工作程序项目的内存确实包含这样的项目，或者当前活动的工作项目已排队。蓝屏错误代码0x000000E4也可能在同一蓝屏上显示“WORKER_INVALID”。</p>
+<p>0x000000E6</p>
+<p>此BSOD是所有驱动程序验证程序DMA验证违规的STOP代码。BSOD错误代码0x000000E6也可能会在同一蓝色屏幕上显示“DRIVER_VERIFIER_DMA_VIOLATION”。</p>
+<p>0x000000E7</p>
+<p>此BSOD表示线程的已保存浮点状态无效。BSOD错误代码0x000000E7也可能会在同一蓝色屏幕上显示“INVALID_FLOATING_POINT_STATE”。</p>
+<p>0x000000E8</p>
+<p>这BSOD意味着一个无效的文件对象被传递给IoCancelFileOpen。BSOD错误代码0x000000E8也可能在同一蓝屏上显示“INVALID_CANCEL_OF_FILE_OPEN”。</p>
+<p>0x000000E9</p>
+<p>这个BSOD意味着一个活跃的执行工作者线程正在终止。蓝屏错误代码0x000000E9也可能在同一蓝屏上显示“ACTIVE_EX_WORKER_THREAD_TERMINATION”。</p>
+<p>0x000000EA</p>
+<p>这个BSOD意味着设备驱动程序中的线程无限旋转。BSOD错误代码0x000000EA也可能在同一蓝屏上显示“THREAD_STUCK_IN_DEVICE_DRIVER”。</p>
+<p>0x000000EB</p>
+<p>这个BSOD意味着没有空闲页面可用于继续操作。BSOD错误代码0x000000EB也可能在同一蓝屏上显示“DIRTY_MAPPED_PAGES_CONGESTION”。</p>
+<p>0x000000EC</p>
+<p>此BSOD意味着会话驱动程序仍然保留内存时发生会话卸载。蓝屏错误代码0x000000EC也可能在同一蓝屏上显示“SESSION_HAS_VALID_SPECIAL_POOL_ON_EXIT”。</p>
+<p>0x000000ED</p>
+<p>这个BSOD意味着I / O子系统试图挂载启动卷并失败。BSOD错误代码0x000000ED也可能在同一蓝色屏幕上显示“UNMOUNTABLE_BOOT_VOLUME”。</p>
+<p>0x000000EF</p>
+<p>这个BSOD意味着一个关键的系统进程死亡。BSOD错误代码0x000000EF也可能在同一蓝屏上显示“CRITICAL_PROCESS_DIED”。</p>
+<p>0x000000F1</p>
+<p>此BSOD这是所有驱动程序验证程序SCSI验证违规的STOP代码。BSOD错误代码0x000000F1也可能在同一蓝色屏幕上显示“SCSI_VERIFIER_DETECTED_VIOLATION”。</p>
+<p>0x000000F3</p>
+<p>这个BSOD意味着Windows由于内存不足而无法关闭。蓝屏错误代码0x000000F3也可能会在同一蓝屏上显示“DISORDERLY_SHUTDOWN”。</p>
+<p>0x000000F4</p>
+<p>这个BSOD意味着一个对系统操作至关重要的进程或线程意外退出或被终止。BSOD错误代码0x000000F4也可能在同一蓝屏上显示“CRITICAL_OBJECT_TERMINATION”。</p>
+<p>0x000000F5</p>
+<p>此蓝屏意味着过滤器管理器中发生了不可恢复的故障。蓝屏错误代码0x000000F5也可能在同一蓝屏上显示“FLTMGR_FILE_SYSTEM”。</p>
+<p>0x000000F6</p>
+<p>此蓝屏意味着BIOS或其他设备正在通过PCI驱动程序进行验证时发生错误。BSOD错误代码0x000000F6也可能在同一蓝屏上显示“PCI_VERIFIER_DETECTED_VIOLATION”。</p>
+<p>0x000000F7</p>
+<p>这个BSOD意味着驱动程序已经溢出了一个基于堆栈的缓冲区。BSOD错误代码0x000000F7也可能会在同一蓝色屏幕上显示“DRIVER_OVERRAN_STACK_BUFFER”。</p>
+<p>0x000000F8</p>
+<p>此蓝屏意味着尝试从RAM磁盘启动时发生初始化故障。BSOD错误代码0x000000F8也可能会在同一蓝色屏幕上显示“RAMDISK_BOOT_INITIALIZATION_FAILED”。</p>
+<p>0x000000F9</p>
+<p>此BSOD表示驱动程序将STATUS_REPARSE返回到没有尾随名称的IRP_MJ_CREATE请求。BSOD错误代码0x000000F9也可能在同一蓝屏上显示“DRIVER_RETURNED_STATUS_REPARSE_FOR_VOLUME_OPEN”。</p>
+<p>0x000000FA</p>
+<p>此BSOD意味着HTTP内核驱动程序（Http.sys）已达到损坏状态，无法恢复。蓝屏错误代码0x000000FA也可能会在同一蓝屏上显示“HTTP_DRIVER_CORRUPTED”。</p>
+<p>0x000000FC</p>
+<p>这个BSOD意味着试图执行不可执行的内存。BSOD错误代码0x000000FC也可能在同一蓝色屏幕上显示“ATTEMPTED_EXECUTE_OF_NOEXECUTE_MEMORY”。</p>
+<p>0x000000FD</p>
+<p>这个BSOD意味着没有可用的页面来继续基本的系统操作。BSOD错误代码0x000000FD也可能在同一蓝屏上显示“DIRTY_NOWRITE_PAGES_CONGESTION”。</p>
+<p>0x000000FE</p>
+<p>此蓝屏意味着通用串行总线（USB）驱动程序中发生错误。蓝屏错误代码0x000000FE也可能在同一蓝屏上显示“BUGCODE_USB_DRIVER”。</p>
+<p>0x000000FF</p>
+<p>此BSOD表示尝试将新项目插入保留队列，导致队列溢出。BSOD错误代码0x000000FF也可能在同一蓝屏上显示“RESERVE_QUEUE_OVERFLOW”。</p>
+<p>0x00000100</p>
+<p>这个BSOD意味着加载程序块无效，或者它与正在加载的系统不匹配。蓝屏错误代码0x00000100也可能在同一蓝屏上显示“LOADER_BLOCK_MISMATCH”。</p>
+<p>0x00000101</p>
+<p>此BSOD意味着在多处理器系统中的辅助处理器上的预期时钟中断未在分配的时间间隔内收到。BSOD错误代码0x00000101也可能在同一蓝屏上显示“CLOCK_WATCHDOG_TIMEOUT”。</p>
+<p>0x00000103</p>
+<p>此BSOD意味着多个UNC提供程序（MUP）遇到无效或意外的数据。因此，MUP无法将远程文件系统请求传送给网络重定向器即通用命名约定（UNC）提供程序。蓝屏错误代码0x00000103也可能在同一蓝屏上显示“MUP_FILE_SYSTEM”。</p>
+<p>0x00000104</p>
+<p>这个BSOD意味着GPU写入了一系列先前未提交的加速图形端口（AGP）内存。BSOD错误代码0x00000104也可能在同一蓝色屏幕上显示“AGP_INVALID_ACCESS”。</p>
+<p>0x00000105</p>
+<p>此BSOD意味着图形光圈重新映射表（GART）已损坏。BSOD错误代码0x00000105也可能在同一蓝色屏幕上显示“AGP_GART_CORRUPTION”。</p>
+<p>0x00000106</p>
+<p>此BSOD表示加速图形端口（AGP）硬件已被未经授权的代理重新编程。BSOD错误代码0x00000106也可能在同一蓝色屏幕上显示“AGP_ILLEGALLY_REPROGRAMMED”。</p>
+<p>0x00000108</p>
+<p>此BSOD表示在第三方文件系统或文件系统筛选器中发生了不可恢复的问题。BSOD错误代码0x00000108也可能在同一蓝屏上显示“THIRD_PARTY_FILE_SYSTEM_FAILURE”。</p>
+<p>0x00000109</p>
+<p>此BSOD表示内核已检测到关键内核代码或数据损坏。蓝屏错误代码0x00000109也可能在同一蓝屏上显示“CRITICAL_STRUCTURE_CORRUPTION”。</p>
+<p>0x0000010A</p>
+<p>这种BSOD并不常见。蓝屏错误代码0x0000010A也可能在同一蓝屏上显示“APP_TAGGING_INITIALIZATION_FAILED”。</p>
+<p>0x0000010C</p>
+<p>此BSOD意味着在文件系统运行时库（FsRtl）额外创建参数（ECP）软件包中检测到违规行为。BSOD错误代码0x0000010C也可能在同一蓝屏上显示“FSRTL_EXTRA_CREATE_PARAMETER_VIOLATION”。</p>
+<p>0x0000010D</p>
+<p>此BSOD表示内核模式驱动程序框架（KMDF）检测到Windows在基于框架的驱动程序中发现错误。BSOD错误代码0x0000010D也可能在同一蓝色屏幕上显示“WDF_VIOLATION”。</p>
+<p>0x0000010E</p>
+<p>这个BSOD意味着视频内存管理器遇到了无法恢复的情况。蓝屏错误代码0x0000010E也可能在同一蓝屏上显示“VIDEO_MEMORY_MANAGEMENT_INTERNAL”。</p>
+<p>0x0000010F</p>
+<p>此BSOD表示内核事务管理器检测到内核模式资源管理器已引发异常以响应直接回调。资源管理器处于意外且不可恢复的状态。BSOD错误代码0x0000010F也可能在同一蓝屏上显示“RESOURCE_MANAGER_EXCEPTION_NOT_HANDLED”。</p>
+<p>0x00000111</p>
+<p>此BSOD表示在先前的NMI正在进行时发生了不可屏蔽中断（NMI）。BSOD错误代码0x00000111也可能在同一蓝屏上显示“RECURSIVE_NMI”。</p>
+<p>0x00000112</p>
+<p>此BSOD意味着Msrpc.sys驱动程序已启动STOP代码。BSOD错误代码0x00000112也可能在同一蓝屏上显示“MSRPC_STATE_VIOLATION”。</p>
+<p>0x00000113</p>
+<p>此BSOD表示dxg内核已检测到违规。BSOD错误代码0x00000113也可能会在同一蓝色屏幕上显示“VIDEO_DXGKRNL_FATAL_ERROR”。</p>
+<p>0x00000114</p>
+<p>这个BSOD意味着影子驱动程序检测到违规行为。蓝屏错误代码0x00000114也可能在同一蓝屏上显示“VIDEO_SHADOW_DRIVER_FATAL_ERROR”。</p>
+<p>0x00000115</p>
+<p>此BSOD意味着加速图形端口（AGP）驱动程序检测到违规。BSOD错误代码0x00000115也可能在同一蓝屏上显示“AGP_INTERNAL”。</p>
+<p>0x00000116</p>
+<p>此蓝屏表示尝试重置显示驱动程序并从超时恢复失败。BSOD错误代码0x00000116也可能在同一蓝色屏幕上显示“VIDEO_TDR_ERROR”。</p>
+<p>0x00000117</p>
+<p>该BSOD意味着显示驱动程序未能及时响应。蓝屏错误代码0x00000117也可能会在同一蓝屏上显示“VIDEO_TDR_TIMEOUT_DETECTED”。</p>
+<p>0x00000119</p>
+<p>此BSOD表示视频调度程序已检测到致命违规。BSOD错误代码0x00000119也可能在同一蓝色屏幕上显示“VIDEO_SCHEDULER_INTERNAL_ERROR”。</p>
+<p>0x0000011A</p>
+<p>这种BSOD并不常见。蓝屏错误代码0x0000011A也可能在同一蓝屏上显示“EM_INITIALIZATION_FAILURE”。</p>
+<p>0x0000011B</p>
+<p>这个BSOD意味着一个驱动程序已经从取消全局取消锁定的取消例程返回。这会导致所有后续取消调用失败，并导致死锁或其他STOP代码。蓝屏错误代码0x0000011B也可能在同一蓝屏上显示“DRIVER_RETURNED_HOLDING_CANCEL_LOCK”。</p>
+<p>0x0000011C</p>
+<p>此BSOD意味着尝试写入配置管理器的只读受保护存储器。BSOD错误代码0x0000011C也可能在同一蓝色屏幕上显示“ATTEMPTED_WRITE_TO_CM_PROTECTED_STORAGE”。</p>
+<p>0x0000011D</p>
+<p>此BSOD表示事件跟踪子系统遇到意外的致命错误。BSOD错误代码0x0000011D也可能在同一蓝色屏幕上显示“EVENT_TRACING_FATAL_ERROR”。</p>
+<p>0x00000121</p>
+<p>这个BSOD意味着司机造成了违规。BSOD错误代码0x00000121也可能在同一蓝色屏幕上显示“DRIVER_VIOLATION”。</p>
+<p>0x00000122</p>
+<p>此BSOD表示已发生Windows硬件错误体系结构（WHEA）中的内部错误。BSOD错误代码0x00000122也可能在同一蓝色屏幕上显示“WHEA_INTERNAL_ERROR”。</p>
+<p>0x00000124</p>
+<p>此BSOD表示发生了致命的硬件错误。使用Windows硬件错误体系结构（WHEA）提供的错误数据。BSOD错误代码0x00000124也可能在同一蓝色屏幕上显示“WHEA_UNCORRECTABLE_ERROR”。</p>
+<p>0x00000127</p>
+<p>这个BSOD意味着一个应该填充零的页面不是。这可能是由于硬件错误或操作系统的特权组件释放后修改了页面而发生的。蓝屏错误代码0x00000127也可能在同一蓝屏上显示“PAGE_NOT_ZERO”。</p>
+<p>0x0000012B</p>
+<p>此BSOD表示在此页面中发现了一位错误。这是硬件内存错误。BSOD错误代码0x0000012B也可能在同一蓝色屏幕上显示“FAULTY_HARDWARE_CORRUPTED_PAGE”。</p>
+<p>0x0000012C</p>
+<p>此BSOD表示扩展文件分配表（exFAT）文件系统中出现问题。BSOD错误代码0x0000012C也可能在同一蓝屏上显示“EXFAT_FILE_SYSTEM”。</p>
+<p>0x1000007E</p>
+<p>这个BSOD意味着系统线程产生了一个错误处理程序没有捕获的异常。蓝屏错误代码0x1000007E也可能在同一蓝屏上显示“SYSTEM_THREAD_EXCEPTION_NOT_HANDLED_M”。</p>
+<p>0x1000007F</p>
+<p>此BSOD表示Intel CPU生成陷阱，内核无法捕获此陷阱。蓝屏错误代码0x1000007F也可能在同一蓝屏上显示“UNEXPECTED_KERNEL_MODE_TRAP_M”。</p>
+<p>0x1000008E</p>
+<p>这个BSOD意味着一个内核模式程序产生了一个错误处理程序没有捕获的异常。蓝屏错误代码0x1000008E也可能在同一蓝屏上显示“KERNEL_MODE_EXCEPTION_NOT_HANDLED_M”。</p>
+<p>0x100000EA</p>
+<p>这个BSOD意味着设备驱动程序中的线程无限旋转。蓝屏错误代码0x100000EA也可能在同一蓝屏上显示“THREAD_STUCK_IN_DEVICE_DRIVER_M”。</p>
+<p>0xC0000218</p>
+<p>此BSOD意味着无法加载注册表文件。BSOD错误代码0xC0000218也可能在同一蓝色屏幕上显示“STATUS_CANNOT_LOAD_REGISTRY_FILE”。</p>
+<p>是0xC000021A</p>
+<p>这个BSOD意味着在关键的用户模式子系统中发生了错误。BSOD错误代码0xC000021A也可能在同一蓝色屏幕上显示“STATUS_SYSTEM_PROCESS_TERMINATED”。</p>
+<p>0xC0000221</p>
+<p>这个BSOD意味着驱动程序或系统DLL已损坏。蓝屏错误代码0xC0000221也可能在同一蓝屏上显示“STATUS_IMAGE_CHECKSUM_MISMATCH”。</p>
+<p>0xDEADDEAD</p>
+<p>这个BSOD意味着用户故意从内核调试器或键盘启动故障转储。蓝屏错误代码0xDEADDEAD也可能在同一蓝屏上显示“MANUALLY_INITIATED_CRASH1”。</p>
 <h1 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h1><p>  一、屏幕显示系统忙，请按任意键继续</p>
 <p>1、虚拟内存不足造成系统多任务运算错误</p>
 <p>虚拟内存是WINDOWS系统所特有的一种解决系统资源不足的方法，其一般要求主引导区的硬盘剩余空间是其物理内存的2-3倍。而一些发烧友为了充分利用空间，将自己的硬盘塞到满满的，忙记了WINDOWS这个苛刻的要求。结果导致虚拟内存因硬盘空间不足而出现运算错误，所以就出现蓝屏。要解决这个问题好简单，尽量不要把硬盘塞得满满的，要经常删除一些系统产生的临时文件、交换文件，从而可以释放空间。或可以手动配置虚拟内存，选择高级，把虚拟内存的默认地址，转到其他的逻辑盘下。这样就可以避免了因虚拟内存不足而引起的蓝屏。</p>
